@@ -5,7 +5,6 @@ class DB {
     try {
       const realmApp = await new Realm({
         schema: [],
-        path: '/home/test/Desktop/db.realm',
         schemaVersion: 1
       })
 
